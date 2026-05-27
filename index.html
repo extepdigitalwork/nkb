@@ -15,7 +15,9 @@
   <!-- NAV -->
   <nav id="nav">
     <div class="nav-inner">
-      <a href="#" class="logo">NKB</a>
+      <a href="#" class="logo-link">
+        <img src="img/logo.png" alt="Nyski Klub Biznesu" class="nav-logo-img" />
+      </a>
       <ul class="nav-links">
         <li><a href="#o-nas">O nas</a></li>
         <li><a href="#zarzad">Zarząd</a></li>
@@ -33,6 +35,7 @@
 
   <div class="mobile-overlay" id="mobileOverlay">
     <button class="overlay-close" id="overlayClose" aria-label="Zamknij">&#x2715;</button>
+    <img src="img/logo.png" alt="NKB" class="overlay-logo" />
     <nav class="overlay-nav">
       <a href="#o-nas"      class="ol">O nas</a>
       <a href="#zarzad"     class="ol">Zarząd</a>
@@ -91,6 +94,15 @@
     </div>
   </section>
 
+  <!-- CITY STRIP -->
+  <div class="city-strip">
+    <img src="img/nysa-rynek.jpg" alt="Rynek w Nysie" />
+    <div class="city-strip-caption">
+      <span class="rule-line"></span>
+      <span>Nysa · Miasto z historią, ambicją i przyszłością</span>
+    </div>
+  </div>
+
   <!-- FILARY -->
   <section id="filary">
     <div class="container">
@@ -102,18 +114,27 @@
       <div class="pillars-grid">
 
         <div class="pillar reveal">
+          <div class="pillar-img">
+            <img src="img/networking.jpg" alt="Networking NKB" />
+          </div>
           <div class="pillar-num">I</div>
           <h3>Profesjonalny Networking</h3>
           <p>Pomagamy budować trwałe relacje biznesowe na regionalnym rynku. Organizujemy spotkania, konferencje i wydarzenia, które realnie łączą ludzi i tworzą wartościowe kontakty.</p>
         </div>
 
         <div class="pillar reveal">
+          <div class="pillar-img">
+            <img src="img/wspolpraca.jpg" alt="Wspólne finanse NKB" />
+          </div>
           <div class="pillar-num">II</div>
           <h3>Wspólne finanse i projekty</h3>
           <p>Razem pozyskujemy środki i decydujemy, na jakie cele zostają przeznaczone. Realizujemy inicjatywy społeczne, kulturalno-biznesowe i charytatywne z korzyścią dla całej społeczności.</p>
         </div>
 
         <div class="pillar reveal">
+          <div class="pillar-img">
+            <img src="img/rozwoj.jpg" alt="Współpraca w rozwoju NKB" />
+          </div>
           <div class="pillar-num">III</div>
           <h3>Współpraca w rozwoju</h3>
           <p>Konsultujemy się, doradzamy, motywujemy i wspieramy, aby z sukcesem rozwijać firmę w Nysie. Wymieniamy know-how i doświadczenia między przedsiębiorcami z różnych branż.</p>
@@ -237,6 +258,9 @@
             „Naszym klubowiczom zapewniamy wyłącznie najlepsze usługi doradcze."
           </blockquote>
           <p class="big-quote-sub">— Nyski Klub Biznesu</p>
+          <div class="origins-city-img">
+            <img src="img/nysa-katedra.jpg" alt="Katedra w Nysie" />
+          </div>
         </div>
       </div>
     </div>
@@ -254,21 +278,26 @@
 
       <div class="board-grid">
 
+        <!-- Prezes — karta pełnej szerokości -->
         <div class="board-card board-card--president reveal">
-          <div class="board-role">Prezes Zarządu</div>
-          <h3>Małgorzata Gruszka</h3>
-          <p>
-            Menadżer Zespołu Obiektów Agencji Rozwoju Nysy, certyfikowany
-            trener i szkoleniowiec, specjalista ekonomii społecznej i partnerstwa
-            lokalnego. MBA — Przywództwo i Coaching (Collegium Humanum, Warszawa).
-          </p>
-          <p class="board-motto">
-            „Potrzeba ciągłego rozwoju napędza mnie do działania,
-            a motywuje przede wszystkim praca z ludźmi i dla ludzi."
-          </p>
+          <img src="img/zarzad-gruszka.jpg" alt="Małgorzata Gruszka" class="board-photo board-photo--president" />
+          <div class="board-text">
+            <div class="board-role">Prezes Zarządu</div>
+            <h3>Małgorzata Gruszka</h3>
+            <p>
+              Menadżer Zespołu Obiektów Agencji Rozwoju Nysy, certyfikowany
+              trener i szkoleniowiec, specjalista ekonomii społecznej i partnerstwa
+              lokalnego. MBA — Przywództwo i Coaching (Collegium Humanum, Warszawa).
+            </p>
+            <blockquote class="board-motto">
+              „Potrzeba ciągłego rozwoju napędza mnie do działania,
+              a motywuje przede wszystkim praca z ludźmi i dla ludzi."
+            </blockquote>
+          </div>
         </div>
 
         <div class="board-card reveal">
+          <img src="img/zarzad-strzelecki.jpg" alt="Łukasz Strzelecki" class="board-photo" />
           <div class="board-role">Członek Zarządu</div>
           <h3>Łukasz Strzelecki</h3>
           <p>
@@ -279,6 +308,7 @@
         </div>
 
         <div class="board-card reveal">
+          <img src="img/zarzad-zurakowska.jpg" alt="Agnieszka Żurakowska" class="board-photo" />
           <div class="board-role">Członek Zarządu</div>
           <h3>Agnieszka Żurakowska</h3>
           <p>
@@ -289,6 +319,7 @@
         </div>
 
         <div class="board-card reveal">
+          <img src="img/zarzad-stajak.jpg" alt="Regina Stajak" class="board-photo" />
           <div class="board-role">Członek Zarządu</div>
           <h3>Regina Stajak</h3>
           <p>
@@ -298,8 +329,9 @@
         </div>
 
         <div class="board-card reveal">
+          <img src="img/zarzad-smoczynska.jpg" alt="Katarzyna Smoczyńska-Ogłudek" class="board-photo" />
           <div class="board-role">Członek Zarządu</div>
-          <h3>Katarzyna Smoczyńska-Ogłudek</h3>
+          <h3>Katarzyna Smoczyńska&#8202;–&#8202;Ogłudek</h3>
           <p>
             Przedsiębiorczyni, psychodietetyk i artystka. Właścicielka studia
             tatuażu i gabinetu psychodietetyki. Wyróżniona na Forum
@@ -309,6 +341,7 @@
         </div>
 
         <div class="board-card reveal">
+          <img src="img/zarzad-wicher.png" alt="Anita Wicher" class="board-photo" />
           <div class="board-role">Członek Zarządu</div>
           <h3>Anita Wicher</h3>
           <p>
@@ -318,16 +351,43 @@
           </p>
         </div>
 
-        <div class="board-card reveal">
+        <div class="board-card board-card--no-photo reveal">
+          <div class="board-photo-placeholder">DZ</div>
           <div class="board-role">Członek Zarządu</div>
           <h3>Dariusz Zięba</h3>
           <p>
-            Przedsiębiorca od 2012 r. — KORONA studio zdrowego snu.
-            Prezes Stowarzyszenia „PROSTO z NYSY". Absolwent Politechniki
-            Opolskiej i Instituto Politécnico de Bragança (Portugalia).
+            Przedsiębiorca od 2012 r. — KORONA studio zdrowego snu
+            (zdrowowyspani.pl). Prezes Stowarzyszenia „PROSTO z NYSY".
+            Absolwent Politechniki Opolskiej i Instituto Politécnico
+            de Bragança (Portugalia).
           </p>
         </div>
 
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERIA WYDARZEŃ -->
+  <section id="galeria">
+    <div class="container">
+      <div class="section-label">
+        <span class="label-num">05</span>
+        <span>Wydarzenia</span>
+      </div>
+      <h2 class="section-title">NKB<br /><em>w działaniu</em></h2>
+      <div class="gallery-grid">
+        <div class="gallery-item reveal">
+          <img src="img/event-piknik.jpg" alt="Piknik rodzinny Nyskiego Klubu Biznesu" />
+          <div class="gallery-caption">Piknik rodzinny NKB</div>
+        </div>
+        <div class="gallery-item reveal">
+          <img src="img/event-dating.jpg" alt="Szybkie biznesowe randki NKB" />
+          <div class="gallery-caption">Szybkie biznesowe randki</div>
+        </div>
+        <div class="gallery-item reveal">
+          <img src="img/sukces.jpg" alt="Wsparcie biznesu przez NKB" />
+          <div class="gallery-caption">Wspólna droga do sukcesu</div>
+        </div>
       </div>
     </div>
   </section>
@@ -338,7 +398,7 @@
       <div class="join-grid">
         <div class="join-left reveal">
           <div class="section-label">
-            <span class="label-num">05</span>
+            <span class="label-num">06</span>
             <span>Członkostwo</span>
           </div>
           <h2 class="section-title">Dokonaj najlepszej<br /><em>inwestycji w tym roku</em></h2>
@@ -410,7 +470,7 @@
   <section id="partnerzy">
     <div class="container">
       <div class="section-label">
-        <span class="label-num">06</span>
+        <span class="label-num">07</span>
         <span>Partnerzy wspierający</span>
       </div>
       <h2 class="section-title">Razem<br /><em>tworzymy więcej</em></h2>
@@ -433,7 +493,7 @@
       <div class="faq-grid">
         <div class="faq-left reveal">
           <div class="section-label">
-            <span class="label-num">07</span>
+            <span class="label-num">08</span>
             <span>FAQ</span>
           </div>
           <h2 class="section-title">Często<br /><em>zadawane pytania</em></h2>
@@ -505,7 +565,7 @@
       <div class="contact-grid">
         <div class="contact-left reveal">
           <div class="section-label">
-            <span class="label-num">08</span>
+            <span class="label-num">09</span>
             <span>Kontakt</span>
           </div>
           <h2 class="section-title">Zacznijmy<br /><em>rozmowę</em></h2>
@@ -577,8 +637,8 @@
     <div class="container">
       <div class="footer-inner">
         <div class="footer-brand">
-          <span class="logo">NKB</span>
-          <p>Nyski Klub Biznesu<br />ul. Tadeusza Kościuszki 10<br />48-300 Nysa</p>
+          <img src="img/logo-white.png" alt="Nyski Klub Biznesu" class="footer-logo-img" />
+          <p>ul. Tadeusza Kościuszki 10<br />48-300 Nysa</p>
           <p class="footer-nip">NIP: 753 246 27 10 &nbsp;·&nbsp; REGON: 520 549 516</p>
         </div>
         <div class="footer-cols">
@@ -592,6 +652,7 @@
           <div class="footer-col">
             <h6>Działalność</h6>
             <a href="#filary">Czym się zajmujemy</a>
+            <a href="#galeria">Wydarzenia</a>
             <a href="#dolacz">Członkostwo</a>
             <a href="#partnerzy">Partnerzy</a>
           </div>
@@ -605,8 +666,14 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <span>© 2024 Nyski Klub Biznesu. Wszelkie prawa zastrzeżone.</span>
-        <span><a href="#" style="color:inherit;">Polityka prywatności</a> &nbsp;·&nbsp; <a href="#" style="color:inherit;">RODO</a> &nbsp;·&nbsp; <a href="#" style="color:inherit;">Regulamin</a></span>
+        <span>© 2026 Nyski Klub Biznesu. Wszelkie prawa zastrzeżone.</span>
+        <span>
+          <a href="#" style="color:inherit;">Polityka prywatności</a>
+          &nbsp;·&nbsp;
+          <a href="#" style="color:inherit;">RODO</a>
+          &nbsp;·&nbsp;
+          <a href="#" style="color:inherit;">Regulamin</a>
+        </span>
       </div>
     </div>
   </footer>
