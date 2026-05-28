@@ -8,8 +8,8 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --bg:        #F7F4EF;
-  --bg-alt:    #EFECE5;
+  --bg:        #FFFFFF;
+  --bg-alt:    #F5F5F5;
   --bg-dark:   #111318;
   --white:     #FFFFFF;
   --ink:       #111318;
@@ -142,7 +142,7 @@ h1 em, h2 em { font-style: italic; color: var(--gold); }
   transition: background .3s, padding .3s, border-bottom .3s;
 }
 #nav.scrolled {
-  background: rgba(247,244,239,.94);
+  background: rgba(255,255,255,.94);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border-bottom: 1px solid var(--border);
@@ -255,7 +255,7 @@ h1 em, h2 em { font-style: italic; color: var(--gold); }
 /* ===== HERO ===== */
 #hero {
   background:
-    linear-gradient(rgba(247,244,239,.84), rgba(247,244,239,.84)),
+    linear-gradient(rgba(255,255,255,.84), rgba(255,255,255,.84)),
     url('img/nysa-rynek2.jpg') center 40% / cover no-repeat;
 }
 .hero-wrap {
