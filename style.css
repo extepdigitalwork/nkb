@@ -254,6 +254,11 @@ h1 em, h2 em { font-style: italic; color: var(--gold); }
 
 /* ===== HERO ===== */
 #hero {
+  background:
+    linear-gradient(rgba(247,244,239,.84), rgba(247,244,239,.84)),
+    url('img/nysa-rynek2.jpg') center 40% / cover no-repeat;
+}
+.hero-wrap {
   min-height: 100svh;
   display: flex;
   flex-direction: column;

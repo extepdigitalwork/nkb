@@ -14,7 +14,7 @@ const closeBtn = document.getElementById('overlayClose');
 const openMenu  = () => { overlay.classList.add('open');  document.body.style.overflow = 'hidden'; };
 const closeMenu = () => { overlay.classList.remove('open'); document.body.style.overflow = ''; };
 
-burger.addEventListener('click', openMenu);
+burger.addEventListener('click', () => overlay.classList.contains('open') ? closeMenu() : openMenu());
 closeBtn.addEventListener('click', closeMenu);
 document.querySelectorAll('.ol').forEach(a => a.addEventListener('click', closeMenu));
 
